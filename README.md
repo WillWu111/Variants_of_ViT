@@ -13,7 +13,7 @@ MiTPOSE first encodes the input image using an improved **SCConv**-based CNN bac
 
 <div align="center">
   
-![MiTPOSE Framework](assets/MitPose_Structure.drawio.png)
+![MiTPOSE Framework](assets/MitPose.png)
 
 </div>
 
