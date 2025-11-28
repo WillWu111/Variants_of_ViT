@@ -38,7 +38,7 @@ We conduct comprehensive experiments on the COCO benchmark to validate the effec
 
 ![COCO Results Table 1](assets/Table1.png)
 
-**Ablation and efficiency analysis**
+**Overall results on MPII**
 
 ![COCO Results Table 2](assets/Table2.png)
 
