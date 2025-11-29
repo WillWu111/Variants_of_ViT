@@ -1,5 +1,6 @@
 ## MiTPOSE: Multi-Granularity guided Vision Transformer for Human Pose Estimation
-
+> **Authors:** Yunfeng Wu, Qizhong Gao, Yize Liu, Jun Sun, Zhuozhi Li, Yuhao Jin, Yong Yue, Xiaohui Zhu* > **Affiliations:** Xi’an Jiaotong-Liverpool University, University of Liverpool
+## 📖 Introduction
 Two-dimensional human pose estimation (HPE) has been widely used in behavioral analysis, identity verification, and automated industrial manufacturing. Compared to convolutional neural networks (CNNs), Vision Transformers (ViTs) have recently shown strong potential for human pose estimation. However, there are two key challenges:
 
 1. The computational and parameter complexity of standard ViTs grows quadratically with image size, making them difficult to deploy on resource-constrained edge devices.
