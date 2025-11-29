@@ -73,4 +73,13 @@ mim install "mmengine>=0.7.0"
 mim install "mmcv>=2.0.0"
 mim install "mmpose"
 ```
+#### 2. Change backbone to MiTPOSE
+Our backbone implementation is located at:
 
+```bash
+MiTPose/codes/vision_transformer(mitpose).py
+```
+
+#### 3. Train and evaluate
+
+Follow the training and evaluation scripts provided in MMPose (e.g., tools/train.py and tools/test.py) with your modified config to train and evaluate MiTPOSE on COCO or your own datasets.
