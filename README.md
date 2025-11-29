@@ -54,21 +54,6 @@ Please first install MMPose and its dependencies by following the official instr
 
 - MMPose installation guide: https://github.com/open-mmlab/mmpose
 
-In short, this typically includes:
-
-```bash
-# create and activate a conda environment (example)
-conda create -n mmpose python=3.10 -y
-conda activate mmpose
-
-# install PyTorch (choose the version & CUDA according to your environment)
-pip install torch torchvision torchaudio
-
-# install MMCV, MMEngine, and MMPose following the official docs
-pip install -U openmim
-mim install "mmengine>=0.7.0"
-mim install "mmcv>=2.0.0"
-mim install "mmpose"
 
 
 
