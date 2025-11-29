@@ -44,4 +44,36 @@ We conduct comprehensive experiments on the COCO benchmark to validate the effec
 
 ![COCO Results Table 2](assets/Table2.png)
 
+### Usage (MMPose Integration)
+
+To reproduce our results or plug MiTPOSE into your own pipelines, we follow the standard **MMPose** framework and replace the backbone with our implementation.
+
+#### 1. Install environment (MMPose)
+
+Please first install MMPose and its dependencies by following the official instructions:
+
+- MMPose installation guide: https://github.com/open-mmlab/mmpose
+
+In short, this typically includes:
+
+```bash
+# create and activate a conda environment (example)
+conda create -n mmpose python=3.10 -y
+conda activate mmpose
+
+# install PyTorch (choose the version & CUDA according to your environment)
+pip install torch torchvision torchaudio
+
+# install MMCV, MMEngine, and MMPose following the official docs
+pip install -U openmim
+mim install "mmengine>=0.7.0"
+mim install "mmcv>=2.0.0"
+mim install "mmpose"
+```
+#### 2. Change Backbone
+
+Our backbone implementation is located at: MiTPose/codes/vision_transformer(mitpose).py
+
+
+
 </div>
